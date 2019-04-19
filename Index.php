@@ -172,7 +172,7 @@ $campo = VerificarCampo();
                     <h4>De: <big><del>500.000,00</del></big></h4>
                     <h3>Por: <big>150.000,00</big></h3>
                     <hr />
-                    <a class="btn btn-default btn-primary btn-block" role="button" href="./Vestidos.html#oferta01">Conferir</a>
+                    <a class="btn btn-default btn-primary btn-block" role="button" href="./Vestidos.php#oferta01">Conferir</a>
                 </div>
                 <div class="col-xs-2"></div>
             </div>
@@ -184,7 +184,7 @@ $campo = VerificarCampo();
                     <h4>De: <big><del>175.000,99</del></big></h4>
                     <h3>Por: <big>175.000,00</big></h3>
                     <hr />
-                    <a class="btn btn-default btn-primary btn-block" role="button" href="./Vestidos.html#oferta01">Conferir</a>
+                    <a class="btn btn-default btn-primary btn-block" role="button" href="./Vestidos.php#oferta01">Conferir</a>
                 </div>
                 <div class="col-xs-1"></div>
                 <div class="col-xs-5">
