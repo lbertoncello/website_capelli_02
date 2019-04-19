@@ -1,0 +1,116 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #CFCFCF;
+}
+
+/*-----------Cabeçalho-----------*/
+.navbar {
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0;
+}
+
+    .navbar h1 {
+        color: #fff;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+.navbar-header a {
+    outline: none;
+}
+
+
+.glyphicon {
+    top: 0;
+}
+
+.navbar-toggle {
+    border: 0;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+@media (min-width: 768px) {
+    .navbar .navbar-right {
+        display: flex;
+        float: none;
+        justify-content: center;
+    }
+
+    .navbar-nav .nav-button {
+        line-height: 7.5px;
+        margin-right: 15px;
+    }
+
+    .nav-button {
+        margin: 17px 0;
+    }
+
+    .navbar-nav > li > a {
+        padding-bottom: 17px;
+        padding-top: 15px;
+    }
+
+    .espaco {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        padding-right: 0px;
+    }
+
+    .navbar .navbar-right {
+        margin-right: 0;
+    }
+
+    .navbar-nav .nav-button {
+        line-height: 17px;
+    }
+
+    .nav-button {
+        margin: 10px 17px;
+    }
+
+    .navbar .navbar-brand h1 {
+        padding-left: 8px;
+    }
+
+    .navbar-nav li {
+        line-height: 55px;
+    }
+
+    li:last-child {
+        margin-top: -23px;
+    }
+
+    .espaco {
+        margin-bottom: -13px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar .navbar-brand {
+        display: inline-table;
+        padding-left: 100px;
+    }
+
+    .navbar .navbar-right {
+        display: initial;
+        float: right;
+        padding-right: 85px;
+    }
+}

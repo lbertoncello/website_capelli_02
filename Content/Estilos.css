@@ -1,0 +1,498 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #CFCFCF;
+}
+
+/*-----------Cabeçalho-----------*/
+.navbar {
+    background-color: #002A43;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0;
+}
+
+    .navbar h1 {
+        color: #fff;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+.navbar-header a {
+    outline: none;
+}
+
+.navbar-nav li {
+    height: 76px;
+    line-height: 44px;
+}
+
+nav li a {
+    color: #fff;
+}
+
+.navbar-nav li a {
+    text-align: center;
+    font-size: 20px;
+    line-height: inherit;
+}
+
+.glyphicon {
+    top: 0;
+}
+
+.navbar-toggle {
+    border: 0;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+@media (min-width: 768px) {
+    .navbar-nav li a:focus {
+        outline: none;
+        padding-bottom: 14.2px;
+        background-color: #002A43;
+        color: #fff;
+        border-bottom: solid medium #fff;
+    }
+
+    .navbar .navbar-right {
+        display: flex;
+        float: none;
+        justify-content: center;
+        margin-right: -24px;
+    }
+
+    .navbar-nav .nav-button {
+        line-height: 7.5px;
+        margin-right: 15px;
+    }
+
+    .nav-button {
+        margin: 17px 0;
+    }
+
+    .navbar-nav .nav-button:focus {
+        color: #002A43;
+        background-color: #fff;
+    }
+
+    .navbar-nav li a:hover {
+        padding-bottom: 14.2px;
+        background-color: #002A43;
+        color: #fff;
+        border-bottom: solid medium #fff;
+    }
+
+    .navbar-nav > li > a {
+        padding-bottom: 17px;
+        padding-top: 15px;
+    }
+
+    .espaco {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav li a:focus {
+        color: #002A43;
+        background-color: #fff;
+    }
+
+    .navbar-collapse {
+        padding-right: 0px;
+    }
+
+    .navbar .navbar-right {
+        margin-right: 0;
+    }
+
+    .navbar-nav .nav-button {
+        line-height: 17px;
+    }
+
+    .nav-button {
+        margin: 10px 17px;
+    }
+
+    .navbar-nav .nav-button {
+    }
+
+    .navbar-nav li a:hover {
+        background-color: #fff;
+        color: #002A43;
+    }
+
+    .navbar .navbar-brand h1 {
+        padding-left: 8px;
+    }
+
+    .navbar-nav li {
+        line-height: 55px;
+    }
+
+    li:last-child {
+        margin-top: -23px;
+    }
+
+    .espaco {
+        margin-bottom: -13px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-nav li a:focus {
+        padding-bottom: 14.3px;
+    }
+
+    .navbar-nav li a:hover {
+        padding-bottom: 14.3px;
+    }
+
+    .navbar .navbar-brand {
+        display: inline-table;
+        height: 76px;
+        padding-left: 100px;
+    }
+
+    .navbar .navbar-right {
+        display: initial;
+        float: right;
+        padding-right: 85px;
+    }
+}
+
+.nav-button {
+    border-radius: 2px;
+    height: 42px;
+    border: solid thin #fff;
+}
+
+.navbar-nav .nav-button:hover {
+    color: #002A43;
+    background-color: #fff;
+    border-color: white;
+}
+
+/*-----------Rodapé-----------*/
+@media (max-width: 767px) {
+    .footer {
+        height: 625px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer {
+        height: 415px;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer {
+        height: 260px;
+    }
+}
+
+.footer {
+    background-color: #012136;
+}
+
+footer .row {
+    padding-top: 15px;
+}
+
+footer h3 {
+    color: #727273;
+    padding-bottom: 10px;
+}
+
+footer i {
+    margin-right: 10px;
+}
+
+footer span {
+    display: block;
+    font-size: 15px;
+    color: #fff;
+}
+
+.vazio {
+    margin-right: 25px;
+}
+
+.coluna {
+    margin-left: -4px;
+}
+
+footer a {
+    color: #fff;
+}
+
+    footer a:hover, footer a:focus {
+        color: #CFCFCF;
+        outline: none;
+    }
+
+    footer a:link {
+        text-decoration: none;
+    }
+
+#empresa {
+    display: inline;
+    font-size: 24px;
+}
+
+.end-footer .row {
+    padding-top: 0;
+}
+
+.fa {
+    margin-right: 0;
+    margin-left: 3px;
+}
+
+.fa-stack-1x {
+    color: white;
+}
+
+.fa-facebook {
+    font-size: 29px;
+}
+
+.icon-facebook {
+    color: #3b5998;
+}
+
+.fa-google-plus {
+    font-size: 25px;
+    color: #fff;
+}
+
+.icon-gplus {
+    color: #dd4b39;
+}
+
+.icon-twitter {
+    color: #00aced;
+}
+
+.fa-twitter {
+    font-size: 25px;
+}
+
+.fa-instagram {
+    font-size: 26px;
+}
+
+.icon-instagram {
+    color: #517fa4;
+}
+
+.end-footer span {
+    margin-top: -2px;
+}
+
+/*-----------Index-----------*/
+.azul-escuro {
+    background-color: rgba(145, 145, 145, 0.78);
+    height: 10px;
+}
+
+.ofertas {
+    height: 500px;
+}
+
+.azul h2 {
+    margin: 0;
+}
+
+.azul {
+    background-color: #fff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.anuncio h2, .anuncio h3, .anuncio h4 {
+    margin-top: 0;
+}
+
+.anuncio h2 {
+    padding-bottom: 50px;
+}
+
+.anuncio {
+    display: flex;
+    align-items: center;
+}
+
+    .anuncio img {
+        height: 400px;
+    }
+
+    .anuncio:last-child {
+        background-color: #fff;
+    }
+
+    .anuncio .col-xs-5:last-child {
+        margin-right: -1px;
+        padding-right: 0;
+    }
+
+    .anuncio .col-xs-5:first-child {
+        padding-left: 0;
+        margin-left: -1px;
+    }
+
+.mobile-title {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+    .mobile-title h1 {
+        margin-top: 0;
+    }
+
+    .mobile-title h2 {
+        margin-bottom: 0;
+    }
+
+/*-----------Login-----------*/
+#content-login {
+    padding-bottom: 150px;
+}
+
+.title {
+    padding-top: 119px;
+}
+
+hr {
+    border-color: #919191;
+}
+
+/*--------Cadastro------*/
+#content-cadastro {
+    padding-bottom: 150px;
+}
+
+/*--------Vestidos------*/
+.esquerda, .direita {
+    display: flex;
+    align-items: center;
+}
+
+    .esquerda img, .direita img {
+        height: 700px;
+    }
+
+.direita {
+    background-color: #fff;
+}
+
+    .direita .col-xs-5 {
+        padding-right: 0;
+    }
+
+.esquerda .col-xs-5 {
+    padding-left: 0;
+}
+
+/*--------Pedidos------*/
+#content-pedidos {
+    margin-bottom: 50px;
+}
+
+    #content-pedidos h1 {
+        margin-top: 70px;
+    }
+
+    #content-pedidos table {
+        margin-top: 30px;
+    }
+
+.yellow {
+    color: #dbb14e;
+}
+
+/*--------Carrinho------*/
+#content-carrinho {
+    padding-bottom: 30px;
+}
+
+/*--------Pagamento------*/
+#content-pagamento {
+    padding-bottom: 50px;
+}
+
+    #content-pagamento h1 {
+        padding-top: 20px;
+    }
+
+.opcao-pagamento {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #919191;
+    height: 75px;
+}
+
+.opcao-pagamento-espaco {
+    height: 2px;
+}
+
+.opcao-pagamento h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.inativo {
+    display: none;
+}
+
+.ativo {
+    display: block;
+}
+
+.opcao-ativa {
+    background-color: #fff;
+}
+
+.opcao-inativa {
+    background-color: #919191;
+}
+
+#boleto li {
+    padding-top: 25px;
+}
+
+/*--------Carrinho------*/
+#content-carrinho {
+    padding-bottom: 30px;
+}
+
+.tituloTabela {
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .Vestido {
+         margin-top: 50%;
+    }
+}
